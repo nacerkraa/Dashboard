@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root{
+    --blue : #287bff;
+    --white : #fff;
+    --grey: #f5f5f5;
+    --black1 : #222;
+    --black2: #999;
+}
+
+body{
+    max-height: 400vh;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.navigation {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: var(--blue);
+    border-left: 10px solid var(--blue);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+}
+
+.navigation ul il {
+    
+}
