@@ -40,6 +40,17 @@ body{
     width: 100%;
 }
 
-.navigation ul il {
-    
+.navigation ul li {
+    position: relative;
+    width: 200%;
+    list-style: none;
+}
+
+.navigation ul li:hover{
+    background: var(--white);
+}
+
+.navigation ul li:nth-child(1){
+    margin-bottom: 40px;
+    pointer-events: none;
 }
